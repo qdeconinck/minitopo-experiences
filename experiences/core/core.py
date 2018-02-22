@@ -9,9 +9,9 @@ import subprocess
 import time
 import threading
 
-""" Let 10 minutes to complete the experiment """
-# Modified!
-THREAD_TIMEOUT = 600
+""" Let 2 hours to complete the experiment """
+# This should be sufficient for the worst case topology (~0.10 Mbps to download 20 MB on single-path)
+THREAD_TIMEOUT = 7200
 
 
 """ Some useful functions """
